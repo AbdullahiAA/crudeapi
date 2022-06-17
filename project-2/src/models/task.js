@@ -1,7 +1,7 @@
 const db = require("../utils/database");
 
 class Task {
-  constructor(id, user, todo, status, created_on) {
+  constructor(id, user_id, todo, status, created_on) {
     this.id = id;
     this.user_id = user_id;
     this.todo = todo;
